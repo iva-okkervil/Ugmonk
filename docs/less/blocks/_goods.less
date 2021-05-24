@@ -1,0 +1,103 @@
+.goods {
+	padding-top: 20px;
+	padding-bottom: 172px;
+	background: @bgBase;
+}
+
+.goods__filter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.goods__filter-button {
+	margin-right: 48px;
+	padding-bottom: 5px;
+	background: transparent;
+	border-bottom: 1px solid transparent;
+	font-size: 17px;
+	line-height: 1.58;
+	color: @textNonActive;
+}
+
+.goods__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+
+	.goods__row {
+		padding-bottom: 17px;
+	}
+}
+
+.goods__item {
+	width: 275px;
+	max-width: 275px;
+	margin-right: 20px;
+	margin-bottom: 16px;
+}
+
+.goods__item.string-last-child {
+	margin-right: 0;
+}
+
+.goods__item-pic {
+	
+	img {
+		width: 275px;
+		height: 341px;
+	}
+}
+
+.goods__item-desc {
+	padding-top: 11px;
+	padding-bottom: 15px;
+
+}
+
+.goods__item-title {
+	margin-bottom: 6px;
+	font-size: 15px;
+	line-height: 1.2;
+	letter-spacing: 0;
+
+	.goods__item-group {
+		color: @textDark;
+	}
+
+	.goods__item-name {
+		margin-right: 3px;
+		color: @textDark;
+	}
+
+	.goods__item-details {
+		color: @textAdditional;
+	}
+}
+
+.goods__item-price {
+	font-size: 13px;
+	line-height: 1;
+	letter-spacing: 0;
+
+	.standard-price {
+		margin-right: 3px;
+		color: @textDark;
+	}
+
+	.discount-price {
+		color: @textAccent;
+	}
+}
+
+.goods__more {
+	display: block;
+	width: 302px;
+	margin: 70px auto 0;
+	padding-left: 61px;
+	padding-right: 61px;
+	font-size: 20px;
+	line-height: 2.8;
+}
